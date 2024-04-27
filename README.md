@@ -4,9 +4,8 @@ Open AI Dan GPT-4 Untuk Membantu Mu ( Jalankan Dengan Termux ! )
 <h1> Assisten Ai </h1>
 
 # Menjalankan
-'''
-YourCopyableTextblock
-'''
+##
+<tab><tab>code/
 
 
 pkg update && pkg upgrade
@@ -42,9 +41,7 @@ pip install -r x.txt
 
 
 
-'''
-YourCopyableTextblock
-'''
+</tab></tab>
 # pilih salah satu
 python3 ai
 python3 gpt4
