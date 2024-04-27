@@ -5,7 +5,7 @@ Open AI Dan GPT-4 Untuk Membantu Mu ( Jalankan Dengan Termux ! )
 
 # Menjalankan
 ##
-<tab>
+<clipboard-copy>
 
 
 pkg update && pkg upgrade
@@ -41,9 +41,7 @@ pip install -r x.txt
 
 
 
-
-<tab>
-</tab></tab>
+</clipboard-copy>
 
 # pilih salah satu
 python3 ai
