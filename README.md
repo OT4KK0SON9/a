@@ -42,6 +42,7 @@ pip install -r x.txt
 
 <tab>
 </tab></tab>
+
 # pilih salah satu
 python3 ai
 python3 gpt4
