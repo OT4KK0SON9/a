@@ -5,9 +5,38 @@ Open AI Dan GPT-4 Untuk Membantu Mu ( Jalankan Dengan Termux ! )
 
 # Menjalankan
 pkg update && pkg upgrade
+
+
+
 pkg install git
+
+
+
+
+git clone https://github.com/OT4KK0SON9/a
+
+
+
+
+
+
 pkg install python3
+
+
+
+
+
+
+
+
 pip install -r x.txt
+
+
+
+
+
+
+
 
 # pilih salah satu
 python3 ai
