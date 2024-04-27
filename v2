@@ -1,0 +1,33 @@
+import requests
+import json
+from colorama import Fore, Style, init
+
+init(autoreset=True)  # Menginisialisasi Colorama
+
+def print_header():
+    # Logo atau header yang ingin ditampilkan
+    print(Fore.BLUE + """
+    ===========================================
+                  GPT-4 v2 Termux
+     Pembuatan Dibantu Oleh : ChatGPT , aemt.me
+    ===========================================
+    """)
+
+def send_text():
+    print_header()
+    while True:
+        text_input = input("Masukkan teks yang ingin dikirim: ")
+        url = "https://aemt.me/v2/gpt4"
+        params = {'text': text_input}
+        response = requests.get(url, params=params)
+        
+        # Parse JSON response
+        data = response.json()
+        
+        # Check if the status is true and 'result' exists in the data
+        if data.get('status') and 'result' in data:
+            print(Fore.GREEN + data['result'])  # Teks berwarna hijau
+        else:
+            print(Fore.RED + "Gagal mendapatkan respon yang valid.")  # Teks berwarna merah
+
+send_text()
