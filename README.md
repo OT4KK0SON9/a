@@ -45,7 +45,13 @@ pip install -r x.txt
 
 # pilih salah satu
 python3 ai
+
+
 python3 gpt4
+
+
 python3 v2
+
+
 
 <p> ketik apa saja dan akan dijawab </p>
