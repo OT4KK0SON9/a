@@ -29,6 +29,8 @@ pkg install python3
 
 
 
+cd a
+
 
 
 
